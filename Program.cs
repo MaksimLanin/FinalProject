@@ -17,3 +17,11 @@ void Sort(string[] firstArray, string[] secondArray)
     }
 }
 
+void PrintArray(string[] array)
+{
+    for(int i = 0; i< array.Length; i++)
+    {
+        Console.WriteLine($"{array[i]} ");
+    }
+    Console.WriteLine();
+}
