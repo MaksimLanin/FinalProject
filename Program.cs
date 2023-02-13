@@ -2,7 +2,8 @@
 string[] secondArrray = new string[firstArray.Length];
 
 
-
+Sort(firstArray, secondArrray);
+PrintArray(secondArrray);
 
 void Sort(string[] firstArray, string[] secondArray)
 {
